@@ -1,0 +1,99 @@
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background: maroon;
+    height:10vh;
+    padding-top:3%;
+}
+body{
+    transition: all 1s ease-in-out;
+}
+.slider{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7) ), url("shelf.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    width:100%;
+    height:90vh;
+    text-align:center;
+}
+.slider > p{
+    color:white;
+    padding-top:20%;
+    font-size:3em;
+    font-family: 'Dosis', sans-serif;
+}
+.headercontent{
+    /* float: right; */
+    margin-left: 50%;
+    font-size: 1.6em;
+    color:white;
+
+}
+.link{
+    color: white;
+    text-decoration: none;
+    /* border:1px solid rgba(0,0,0,0.5); */
+    padding:0.6%; 
+    border-radius:5%;
+    transition:color 0.5s ease-in-out;
+    transition:background-color 0.5s ease-in-out;
+    font-size:large;
+    font-family: 'Dosis', sans-serif;
+    
+}
+.link:hover{
+    background-color: white;
+    color: black;
+}
+.top{
+    margin-left:-78%;
+    margin-right: 10%;
+    font-size: xx-large;
+    cursor: pointer;
+    color: white;
+}
+.content{
+    box-shadow: inset 20px 5px 20px  rgba(0,0,0,,0.70);
+    border-top:50px solid white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap:4px;
+
+
+}
+.intro{
+    font-size: xx-large;
+    margin-top: 30px;
+    color: maroon;
+
+}
+.purpose{
+    /* margin-top:5%; */
+    font-size:20px;
+    padding-left:5%;
+    justify-content: right;
+    /* width:40%; */
+}
+.image > img{
+    height:inherit;
+    width:100%;
+}
+#syllabus{
+    padding-left:4%;
+}
+#syllabus >p{
+    text-align:center;
+    color:maroon;
+    font-size:3em;
+}
+#syllabus > .syllabus-content > ul >li{
+    font-size:1em;
+    text-decoration: wavy;
+}
